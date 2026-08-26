@@ -1,0 +1,26 @@
+GET http://localhost:5252/games
+
+###
+GET http://localhost:5252/games/1
+
+###
+POST http://localhost:5252/games
+Content-Type: application/json
+
+{
+  "title": "Cyberpunk 2077",
+  "genre": "Action RPG",
+  "price": 59.99,
+  "releaseDate": "2020-12-10"
+}
+
+###
+PUT http://localhost:5252/games/1
+Content-Type: application/json
+
+{
+  "title": "The Legend of Ozoro: Breath of the Free",
+  "genre": "Action-adventure",
+  "price": 49.99,
+  "releaseDate": "2017-03-03"
+}
