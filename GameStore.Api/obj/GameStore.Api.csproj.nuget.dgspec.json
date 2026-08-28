@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj": {}
+    "c:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj": {
+    "c:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "c:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "C:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "c:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\GlobalSoln-User D\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\obj\\",
+        "outputPath": "c:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,18 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
