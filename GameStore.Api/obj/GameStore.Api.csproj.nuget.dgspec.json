@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj": {}
+    "C:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj": {
+    "C:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "C:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "c:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "C:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\GlobalSoln-User D\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\obj\\",
+        "outputPath": "C:\\Users\\GlobalSoln-User D\\OneDrive\\Desktop\\CsharpProjects\\GameStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
