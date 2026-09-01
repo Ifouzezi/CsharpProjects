@@ -1,3 +1,4 @@
+using GameStore.Api.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace GameStore.Api.Data;
@@ -9,5 +10,29 @@ public static class DataExtensions
         using var scope = app.Services.CreateScope();
         var dbContext = scope.ServiceProvider.GetRequiredService<GameStoreContext>();
         dbContext.Database.Migrate();
+    }
+
+    public static void AddGameStoreDb(this WebApplicationBuilder builder)
+    {
+        var connString = builder.Configuration.GetConnectionString("GameStoreDb");
+        builder.Services.AddSqlite<GameStoreContext>
+        (
+            connString,
+            optionsAction: options => options.UseSeeding((context, _) => 
+            { 
+                if (!context.Set<Genre>().Any())
+                {
+                    context.Set<Genre>().AddRange(
+                        new Genre { Title = "Action" },
+                        new Genre { Title = "Adventure" },
+                        new Genre { Title = "RPG" },
+                        new Genre { Title = "Simulation" },
+                        new Genre { Title = "Strategy" }
+                    );
+
+                    context.SaveChanges();
+                }
+            })
+        );
     }
 }
