@@ -8,9 +8,9 @@ POST http://localhost:5252/games
 Content-Type: application/json
 
 {
-  "title": "",
-  "genre": "Action RPG",
-  "price": 59.99,
+  "title": "Xena: The Warrior Princess",
+  "genreId": 3,
+  "price": 45.99,
   "releaseDate": "2020-12-10"
 }
 

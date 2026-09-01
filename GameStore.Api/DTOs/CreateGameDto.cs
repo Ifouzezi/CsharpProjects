@@ -6,7 +6,7 @@ public record CreateGameDto
 (
     int Id,
     [Required] string Title,
-    [Required] string Genre,
+    [Range(1, 100)] int GenreId,
     [Required] decimal Price,
     [Required] DateOnly ReleaseDate
 )
