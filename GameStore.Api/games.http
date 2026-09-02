@@ -1,29 +1,30 @@
 GET http://localhost:5252/games
 
 ###
-GET http://localhost:5252/games/9
+GET http://localhost:5252/games/5
 
 ###
 POST http://localhost:5252/games
 Content-Type: application/json
 
 {
-  "title": "Xena: The Warrior Princess",
-  "genreId": 3,
+  "title": "Test Game",
+  "genreId": 4,
   "price": 45.99,
   "releaseDate": "2020-12-10"
 }
 
 ###
-PUT http://localhost:5252/games/9
+PUT http://localhost:5252/games/4
 Content-Type: application/json
 
+
 {
-  "title": "The Legend of Ozoro: Breath of the Free",
-  "genre": "Action-adventure",
-  "price": 49.99,
-  "releaseDate": "2017-03-03"
+  "title": "Mario Kart 8 Deluxe Updated",
+  "genreId": 4,
+  "price": 45.99,
+  "releaseDate": "2020-12-10"
 }
 
 ###
-DELETE http://localhost:5252/games/1
+DELETE http://localhost:5252/games/5
